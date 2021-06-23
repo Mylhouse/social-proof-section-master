@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+/*font-family: 'Spartan', sans-serif;*/
+
+:root {
+  --dark-margenta: hsl(300, 43%, 22%);
+  --pink: hsl(333, 80%, 67%);
+  --grayish-magenta: hsl(303, 10%, 53%);
+  --light-magenta: hsl(300, 24%, 96%);
+  --font-size: 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Spartan', sans-serif;
+}
+
+.intro {
+  margin: 30px;
+  width: 30vw;
+  font-size: 20px;
+}
+
+.intro h1 {
+  color: var(--dark-margenta);
+  margin: 0;
+  font-size: 50px;
+  line-height: 54px;
+}
+
+.intro p {
+  margin-top: 10px;
+  color: var(--grayish-magenta);
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.ratings {
+  width: 40vw;
+}
+.rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 24vw;
+  margin: 30px 0px;
+  padding: 20px 30px;
+  background-color: var(--light-magenta);
+  border-radius: 4px;
+}
+
+#rating2 {
+  margin-left: 60px;
+}
+
+#rating3 {
+  margin-left: 120px;
+}
+
+.rating p {
+  margin: 0;
+  color: var(--dark-margenta);
+  font-weight: bolder;
+  font-size: 12px;
+}
+
+.stars {
+  margin: 0px;
+  color: orange;
+}
